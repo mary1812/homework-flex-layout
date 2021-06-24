@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.header{
+  background-image: url(./../img/header.png);
+  height: 400px;
+  width: 100vw;
+  display: inline-block;
+}
+
+
+h1 {
+  padding-top: 100px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-p {
+  margin-top: 50px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.btn{
+display: inline-block;
+background: darkblue;
+color: white;
+border: 1px solid whitesmoke;
+text-decoration: none;
+padding: 20px 40px;
+margin: 20px;
+text-align: center;
+}
+
+.web{
+  display: block;
+  height: 200px;
+  width: 100vw;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+h2{
+  padding-top: 50px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main-p{
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.flex-container{
+  text-align: center;
+  background: rgb(39, 38, 38);
+  width: 100vw;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+.card{
+display: inline-block;
+background-color: white;
+max-width: 300px;
+max-height: 600px;
+margin: 30px;
+}
+
+h3{
+  font-weight: bold;
+  padding: 40px;
+}
+
+img{
+  max-width: 300px;
+  text-align: center;
+}
+
