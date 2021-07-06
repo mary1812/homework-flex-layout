@@ -4,64 +4,126 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Site</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Flex site</title>
   </head>
-  <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/style.css" />
   <body>
-    <header>
-      <section class="header">
-        <h1>Welcome To Lorem</h1>
-        <p class="header-p">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
-          facere voluptate est, iusto exercitationem a. Lorem ipsum dolor sit
-          amet.
+    <header class="header">
+      <div class="container">
+        <h1 class="title">Welcome to Acme Web Solutions</h1>
+        <p class="header-text">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus,
+          hic atque. Quia, dicta. Commodi asperiores sunt voluptatibus eius
+          error quas! Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
-        <a href="#" class="btn">Read More</a>
-      </section>
+        <a href="#" class="link overflow-protection">read more</a>
+      </div>
     </header>
-
     <main>
-      <article class="web">
-        <h2>Web & Application Development</h2>
-        <p class="main-p">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem fuga
-          dolor rerum cum consectetur voluptates impedit quasi officiis, ut quos
-          incidunt autem. Eveniet, obcaecati voluptatem.
-        </p>
-      </article>
-
-      <section class="flex-container">
-        <div class="card">
-          <img class="img" src="./assets/img/photo1.jpeg" alt="photo1">
-          <h3>Web Development</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            saepe odit voluptatum aliquid laborum voluptatem debitis solutab
-            incidunt quam deserunt.
+      <section class="section">
+        <div class="container">
+          <h2 class="section-title">Web & Application Development</h2>
+          <p class="section-text text-columns">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe sint eligendi possimus? Unde officiis magnam laborum ipsa distinctio odio, vero dolores dicta aliquam aperiam repellendus. Perferendis officiis deserunt velit voluptas nobis sequi animi totam, accusantium, ex eius quia, natus quo?
           </p>
         </div>
-        <div class="card">
-          <img class="img" src="./assets/img/photo2.jpeg" alt="photo2">
-          <h3>Mobile Applications</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            saepe odit voluptatum aliquid laborum voluptatem debitis soluta
-            incidunt quam deserunt.
+      </section>
+      <section class="work-section">
+        <h2 class="section-title hidden-title">Our work</h2>
+        <div class="container flex-container">
+          <section class="card">
+            <div class="img-wrapper">
+              <img src="./assets/img/photo1.jpeg" alt="image" class="img" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Web</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                tempore totam dolore deleniti laboriosam aperiam error tenetur
+                magni perferendis voluptatem, debitis fugit dicta vel voluptates
+                rerum blanditiis similique inventore deserunt. Commodi odio
+                velit magni mollitia! Ab eaque maxime incidunt nemo. Molestias
+                hic deserunt voluptates aliquid culpa? Quas molestias blanditiis
+                neque.
+              </p>
+            </div>
+          </section>
+          <section class="card">
+            <div class="img-wrapper">
+              <img src="./assets/img/photo3.jpeg" alt="image" class="img" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Web</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                tempore totam dolore deleniti laboriosam aperiam error tenetur
+                magni perferendis voluptatem, debitis fugit dicta vel voluptates
+                rerum blanditiis similique inventore deserunt. Commodi odio
+                velit magni mollitia! Ab eaque maxime incidunt nemo. Molestias
+                hic deserunt voluptates aliquid culpa? Quas molestias blanditiis
+                neque.
+              </p>
+            </div>
+          </section>
+          <section class="card">
+            <div class="img-wrapper">
+              <img src="./assets/img/photo2.jpeg" alt="image" class="img" />
+            </div>
+            <div class="card-content">
+              <h3 class="card-title">Web</h3>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                tempore totam dolore deleniti laboriosam aperiam error tenetur
+                magni perferendis voluptatem, debitis fugit dicta vel voluptates
+                rerum blanditiis similique inventore deserunt. Commodi odio
+                velit magni mollitia! Ab eaque maxime incidunt nemo. Molestias
+                hic deserunt voluptates aliquid culpa? Quas molestias blanditiis
+                neque.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+      <section class="section color-white">
+        <div class="container">
+          <h2 class="section-title">We handle our needs</h2>
+          <p class="section-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. In debitis
+            atque tenetur velit saepe, reprehenderit at assumenda quas voluptas,
+            corrupti nostrum neque harum voluptatibus nemo odio enim delectus
+            commodi? Sed?
           </p>
         </div>
-        <div class="card">
-          <img src="./assets/img/photo3.jpeg" alt="photo3">
-          <h3>Tech Marketing</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
-            saepe odit voluptatum aliquid laborum voluptatem debitis soluta
-            incidunt quam deserunt.
+      </section>
+      <section class="contacts">
+        <div class="contact-container">
+          <h2 class="section-title">Contact Us</h2>
+          <p class="p-contact-about">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum,
+            suscipit. Rerum ducimus a quod, ut et voluptas obcaecati unde fuga.
+          </p>
+          <p>contact@acmewebsolutions.test</p>
+        </div>
+        <div class="about-container">
+          <h2 class="section-title">About Our Company</h2>
+          <p class="p-contact-about">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+            earum porro deserunt, deleniti, quae facere repudiandae, officiis
+            est exercitationem nobis iusto doloremque! Soluta excepturi in aut
+            suscipit amet temporibus quo?
           </p>
         </div>
       </section>
     </main>
-
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer-div">
+        <p class="footer-text">Acme Web Solutions</p>
+      </div>
+      <div class="footer-div">
+        <p class="footer-text">
+          Project By <a href="#" class="traversy"> Traversy Media </a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
